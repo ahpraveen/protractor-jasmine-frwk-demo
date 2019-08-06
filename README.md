@@ -1,5 +1,7 @@
 # protractor-jasmine-frwk-demo
 
+Introduction:
+=============
 1/ Protractor is a node js program
 
 2/ Protractor supports to automation applications that are built on Angular and non Angular tech stack
@@ -8,8 +10,9 @@
 
 4/ Protractor supports to run head and headless mode.
 
-Setup Instructions
 
+Setup Instructions
+==================
 Precondition: Java should be installed.
 
 1/ download and  install npm (node package manager)
