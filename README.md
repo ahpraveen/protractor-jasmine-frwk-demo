@@ -21,12 +21,22 @@ Precondition: Java should be installed.
 
 2/ Install node
 
-2/ install protractor through npm
+3/ install protractor through npm
    npm install -g protractor (globally) -- installs wherever node is installed
 
-3/ run the selenium server ( to run the server, jdk need to be installed)
+4/ run the selenium server ( to run the server, jdk need to be installed)
  webdriver-manager start
 
-4/ Create a spec (test) .js file and write test (refer the folder under tests); use jasmine api to write expect
+5/ npm install protractor-beautiful-reporter ( this package is needed for generating HTML report)
 
-5/ Create a config.js file to provide details about configuration e.g where selenium server is running, frameowrk details etc.
+6/ Create a spec (test) .js file and write test (refer the folder under tests); use jasmine api to write expect
+
+7/ Create a config.js file to provide details about configuration e.g where selenium server is running, frameowrk details etc.
+
+8/ run using command line; protractor config.js
+
+9/ Post execution check the result in reports/screenshots folder;
+
+10/ open the report. html for details.
+
+
