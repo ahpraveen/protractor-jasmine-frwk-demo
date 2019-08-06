@@ -2,13 +2,15 @@
 
 Introduction:
 =============
-1/ Protractor is a node js program
+1/ Protractor is a end to end testing framework.
 
-2/ Protractor supports to automation applications that are built on Angular and non Angular tech stack
+2/ Protractor is a node js program
 
-3/ Protractor supports various frameworks like jasmine, mocha, cucumber and serenity BDD
+3/ Protractor supports to automation applications that are built on Angular and non Angular tech stack
 
-4/ Protractor supports to run head and headless mode.
+4/ Protractor supports various frameworks like jasmine, mocha, cucumber and serenity BDD
+
+5/ Protractor supports to run head and headless mode.
 
 
 Setup Instructions
