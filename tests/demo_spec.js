@@ -7,13 +7,13 @@ describe('selenium hq - regression suite', function() {
       expect(browser.getTitle()).toEqual('Selenium - Web Browser Automation');     
     });
 
-    it('should menu page', function() {    
+    it('should display menu page', function() { 
         browser.driver.findElement(by.id('menu_about')).click();
         expect(browser.getTitle()).toEqual('About Selenium');     
       });
 
       
-    it('should project page', function() {      
+    it('should display project page', function() {      
         browser.driver.findElement(by.id('menu_projects')).click();
         expect(browser.getTitle()).toEqual('Selenium Projects');     
       });
